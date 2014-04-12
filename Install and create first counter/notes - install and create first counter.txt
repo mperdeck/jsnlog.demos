@@ -1,0 +1,10 @@
+http://jsnlog.com/
+
+Install-Package JSNLog.Log4Net
+
+JL('clientlogger').debug('onButtonClicked has run');
+
+JL('clientlogger').debug({ msg: 'onButtonClicked has run', nbrClicks: nbrClicks });
+
+
+
